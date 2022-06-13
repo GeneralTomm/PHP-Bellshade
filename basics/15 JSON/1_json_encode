@@ -1,0 +1,18 @@
+<pre>
+    <h5>Belajar JSON </h5>
+    <hr>
+    <?php
+
+    /*
+didalam php , kita tidak dapat menemui json , tetapi kita akan menemukan array , atau dimensinoal array 
+untuk membuat json kita butuh bantuan function dari json_encode ()
+
+perhatikan Code berikut : 
+*/
+
+$array = array('smp immanuel','sd immanuel','SMK Immanuel');
+echo json_encode($array)
+
+//output : 
+    ?>
+</pre>
