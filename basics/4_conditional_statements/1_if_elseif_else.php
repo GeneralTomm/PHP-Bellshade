@@ -129,4 +129,16 @@ echo ($angka % 2 == 0) ? "Angka $angka adalah bilangan genap!" : "Angka $angka a
  * Angka 6 adalah bilangan genap!
  */
 
+/**
+* 5. Ternary Operator
+* contoh berikut ini menggunakan ternary sebagai perbandingan sebuah kondisi . 
+* disini kita punya dua variable yang pertama adalah variable app ,yang berisi value laravel . dan kita akan langsung echo saja hasilnya 
+* berguna banget kalau kalian adalah tipe programmer one liner . 
+*/
+$app = 'Laravel';
+echo $app =='Laravel '? 'its Laravel' :'bukan Laravel';
+/*
+* Output : its Laravel
+* 
+*/
 echo "</pre>";
